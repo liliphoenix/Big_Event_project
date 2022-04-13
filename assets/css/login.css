@@ -1,0 +1,56 @@
+.login-register,
+.login-log {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.login-register span,
+.login-log span {
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.login-register div,
+.login-log div {
+    height: 32px;
+    line-height: 32px;
+    margin-top: 15px;
+    border: 1px solid rgba(107, 107, 107, .2);
+}
+
+.login-register input,
+.login-log input {
+    height: 30px;
+    border: none;
+}
+
+.login-register button,
+.login-log button {
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    background-color: rgb(16, 151, 255);
+    cursor: pointer;
+}
+
+.login-register {
+    display: none
+}
+
+.login-log a {
+    position: relative;
+    margin-top: 15px;
+    right: -220px;
+    font-size: 13px;
+}
+
+.login-register a {
+    position: absolute;
+    bottom: -30px;
+    right: 50px;
+    font-size: 13px;
+}
